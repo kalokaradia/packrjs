@@ -55,3 +55,8 @@ jspackr -i src/index.js -o dist/app.js -m -r
 | -m   | --minify        | Minify output                         |
 | -r   | --report        | Show build report                     |
 | -h   | --help          | Show help                             |
+
+---
+
+Created with ❤️ by Kaloka Radia Nanda
+Licensed under the MIT License.
