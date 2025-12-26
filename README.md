@@ -23,6 +23,8 @@ Run it, get your bundle, move on.
 - ✂️ Optional minification
 - 📊 Simple build report to see top contributors
 - 🧠 Sensible CLI UX with shorthand flags
+- 🔄️ Watch mode for development
+- 🗺️ Source maps support (none, linked, inline)
 
 ## Installation
 
@@ -43,18 +45,20 @@ jspackr src/index.js
 -> With options:
 
 ```bash
-jspackr -i src/index.js -o dist/app.js -m -r
+jspackr -i src/index.js -o dist/app.js -m -r -w
 ```
 
 ## CLI Options
 
-| Flag | Long Form       | Description                           |
-| ---- | --------------- | ------------------------------------- |
-| -i   | --input \<file> | Entry file                            |
-| -o   | --out \<file>   | Output file (default: dist/bundle.js) |
-| -m   | --minify        | Minify output                         |
-| -r   | --report        | Show build report                     |
-| -h   | --help          | Show help                             |
+| Flag | Long Form       | Description                               |
+| ---- | --------------- | ----------------------------------------- |
+| -i   | --input \<file> | Entry file                                |
+| -o   | --out \<file>   | Output file (default: dist/bundle.js)     |
+| -m   | --minify        | Minify output                             |
+| -r   | --report        | Show build report                         |
+| -s   | --source <mode> | Source map: none, l (linked), in (inline) |
+| -w   | --watch         | Enable watch mode                         |
+| -h   | --help          | Show help                                 |
 
 ---
 
