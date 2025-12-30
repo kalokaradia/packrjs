@@ -1,0 +1,45 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go build artifacts
+*.log
+*.tmp
+*.prof
+*.cover
+*.cov
+*.test
+*.bench
+*.swp
+
+# Output directories
+dist/
+build/
+coverage/
+
+# Dependency management
+vendor/
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node.js (jika ada bagian frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment / secrets
+.env
+.env.*

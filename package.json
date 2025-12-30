@@ -1,7 +1,7 @@
 {
 	"name": "jspackr",
-	"version": "0.2.0",
-	"description": "A minimal JavaScript bundler powered by esbuild",
+	"version": "0.3",
+	"description": "A fast and modern JavaScript bundler powered by esbuild",
 	"bin": {
 		"jspackr": "bin/jspackr"
 	},
@@ -12,13 +12,27 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/kalokaradia/jspackr"
+		"url": "git+https://github.com/kalokaradia/jspackr.git"
 	},
 	"keywords": [
 		"bundler",
 		"esbuild",
 		"javascript",
-		"cli"
+		"cli",
+		"build-tool",
+		"minifier"
 	],
-	"license": "MIT"
+	"categories": [
+		"Other"
+	],
+	"author": "Kaloka Radia Nanda",
+	"license": "MIT",
+	"homepage": "https://github.com/kalokaradia/jspackr#readme",
+	"bugs": {
+		"url": "https://github.com/kalokaradia/jspackr/issues"
+	},
+	"engines": {
+		"node": ">=18"
+	},
+	"preferGlobal": true
 }
