@@ -2,7 +2,7 @@
   <img src="./logo.svg" width="240" alt="packrat (jspackr logo)" />
 </div>
 
-<h1 align="center">jspackr 0.3</h1>
+<h1 align="center">jspackr 0.3.0</h1>
 
 <p align="center">
   A simple, fast, and modern JavaScript bundler powered by esbuild.<br />

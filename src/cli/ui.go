@@ -212,7 +212,7 @@ func PrintStatus(icon, message string, iconColor *color.Color, messageColor *col
 // PrintWelcome prints a title for the application
 func PrintTitle() {
 	fmt.Println()
-	color.New(color.FgCyan).Println("jspackr 0.3")
+	color.New(color.FgCyan).Println("jspackr 0.3.0")
 	fmt.Println()
 }
 

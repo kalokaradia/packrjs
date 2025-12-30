@@ -11,7 +11,7 @@ import (
 )
 
 func main() {
-	const version = "0.3"
+	const version = "0.3.0"
 	flagCfg, configPath, showVersion, help := utils.ParseFlags()
 
 	// Handle version flag

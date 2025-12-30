@@ -68,7 +68,7 @@ func ValidateVersionFlag(showVersion bool) error {
 
 // ShowVersion prints the version information
 func ShowVersion() {
-	color.New(color.FgCyan).Println("jspackr 0.3")
+	color.New(color.FgCyan).Println("jspackr 0.3.0")
 }
 
 // ShowUsage displays colored and formatted help message
@@ -82,7 +82,7 @@ func ShowUsage() {
 
 	fmt.Println()
 	titleColor.Println("╔══════════════════════════════════════════════════════════════╗")
-	titleColor.Println("║                        JSPACKR 0.3                           ║")
+	titleColor.Println("║                       JSPACKR 0.3.0                          ║")
 	titleColor.Println("╚══════════════════════════════════════════════════════════════╝")
 	fmt.Println()
 

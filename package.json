@@ -1,6 +1,6 @@
 {
 	"name": "jspackr",
-	"version": "0.3",
+	"version": "0.3.1",
 	"description": "A fast and modern JavaScript bundler powered by esbuild",
 	"bin": {
 		"jspackr": "bin/jspackr"
